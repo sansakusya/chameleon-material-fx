@@ -17,7 +17,7 @@
   [Chameleon_Material_FX_for_sdPBR.zip]()
 
 ## 利用規約
-本リポジトリ内の`LICENSE.txt`を必ずご確認ください。
+本リポジトリ内の[LICENSE.txt](https://github.com/sakusya/chameleon-material-fx?tab=License-1-ov-file)を必ずご確認ください。
 - 個人での商用利用：OK
 - 改変配布（.fx / .pmx）：OK
 - クレジット表記：任意
