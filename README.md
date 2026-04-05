@@ -5,7 +5,9 @@
 ## 概要
 - 対応シェーダー：ray-mmd / sdPBR
 - 特徴：HSV制御・RGB制御の2パターンを同梱。テクスチャ画像の編集なしでも色を自由自在に変えられます。
-- 使い方：詳細は[wikiページ](https://github.com/sakusya/chameleon-material-fx/wiki)を参照してください。
+  - HSV制御 (`Chameleon_HSV`)：直感的に「色相」や「鮮やかさ」を変えたい場合に適しています。
+  - RGB制御 (`Chameleon_RGB`)：特定の色の強さを精密に制御したい場合に適しています。
+- 使い方：後述の[Quick Start (クイックスタート)](#quick-start-クイックスタート)で説明します。詳細は[wikiページ](https://github.com/sakusya/chameleon-material-fx/wiki)を参照してください。
 
 ## Download（ダウンロード）
 
@@ -20,26 +22,44 @@
 解凍した`Chameleon_HSV`フォルダ, `Chameleon_RGB`フォルダを以下に配置してください。
 
 #### Ray-MMDの場合
-- `ray-mmd\Materials\Chameleon_HSV`
-- `ray-mmd\Materials\Chameleon_RGB`
-
+- お使いの`ray-mmd\Materials`フォルダ内へ配置してください。
 #### sdPBRの場合
-- `sdPBR\material\Chameleon_HSV`
-- `sdPBR\material\Chameleon_RGB`
+- お使いの`sdPBR\material`フォルダ内へ配置してください。
 
 ### 2. MMEでの割り当て
 MMD右上の「MMEffect」パネルを開き、以下の手順で割り当ててください。
 
 #### ray-mmd の場合
 1. `MaterialMap` タブを選択します。
-2. 適用したいモデルの材質（例：髪など）に対し、`ray_chameleon_XXX.fx` を割り当てます。
+2. 適用したいモデルの材質に対し、`XXX_cham.fx` を割り当てます。
 
 #### sdPBR の場合
 1. `Main` タブを選択します。
-2. 適用したい材質に対し、`sdPBR_chameleon_XXX.fx` を割り当てます。
+2. 適用したいモデルの材質に対し、`sdPBR_XXX_cham.fx` を割り当てます。
 
-### 3. コントローラーの使用（任意）
-付属の `ChameleonController.pmx` をMMDに読み込むことで、色味や変化の速度をモーフでリアルタイムに調整できます。
+### 3. コントローラーの使用
+
+色味を調整するには、使用しているエフェクトと同じフォルダにある`.pmx`ファイルを読み込んでください。
+
+| 対象シェーダー | 参照するフォルダ | 読み込むコントローラー (.pmx) |
+| :--- | :--- | :--- |
+| Ray-MMD | Chameleon_HSV | `ray_chameleon_controller_HSV.pmx` |
+| Ray-MMD | Chameleon_RGB | `ray_chameleon_controller_RGB.pmx` |
+| sdPBR | Chameleon_HSV | `sdPBRChameleonControllerHSV.pmx` |
+| sdPBR | Chameleon_RGB | `sdPBRChameleonControllerRGB.pmx` |
+
+#### 使い方
+MMDの「表情操作（モーフ）」パネルから、以下の調整が可能です。
+| 対象コントローラー | モーフ名 | 説明 |
+| :--- | :--- | :--- |
+| HSV版コントローラー | `H (Hue) `| 色相（色の種類）を調整します。 |
+|  | `S (Saturation)` | 鮮やかさを調整します。|
+|  | `V (Value)` | 明るさを調整します。 |
+|  |  |  |
+| RGB版コントローラー | `R+ (Red)` | 赤の成分の強さを調整します。 |
+|  | `G+ (Green)` | 緑の成分の強さを調整します。 |
+|  | `B+ (Blue)` | 青の成分の強さを調整します。 |
+|  | `V- (Value)` | 全体の明るさを一括で調整します。 |
 
 
 ## 利用規約
