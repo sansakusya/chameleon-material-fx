@@ -21,19 +21,19 @@
 ### 1.ファイルの配置
 解凍した`Chameleon_HSV`フォルダ, `Chameleon_RGB`フォルダを以下に配置してください。
 
-#### Ray-MMDの場合
+#### 【Ray-MMDの場合】
 - お使いの`ray-mmd\Materials`フォルダ内へ配置してください。
-#### sdPBRの場合
+#### 【sdPBRの場合】
 - お使いの`sdPBR\material`フォルダ内へ配置してください。
 
 ### 2. MMEでの割り当て
 MMD右上の「MMEffect」パネルを開き、以下の手順で割り当ててください。
 
-#### ray-mmd の場合
+#### 【Ray-MMDの場合】
 1. `MaterialMap` タブを選択します。
 2. 適用したいモデルの材質に対し、`XXX_cham.fx` を割り当てます。
 
-#### sdPBR の場合
+#### 【sdPBRの場合】
 1. `Main` タブを選択します。
 2. 適用したいモデルの材質に対し、`sdPBR_XXX_cham.fx` を割り当てます。
 
@@ -48,7 +48,7 @@ MMD右上の「MMEffect」パネルを開き、以下の手順で割り当てて
 | sdPBR | Chameleon_HSV | `sdPBRChameleonControllerHSV.pmx` |
 | sdPBR | Chameleon_RGB | `sdPBRChameleonControllerRGB.pmx` |
 
-#### 使い方
+#### 【使い方】
 MMDの「表情操作（モーフ）」パネルから、以下の調整が可能です。
 | 対象コントローラー | モーフ名 | 説明 |
 | :--- | :--- | :--- |
