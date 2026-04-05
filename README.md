@@ -11,10 +11,9 @@
 
 お使いのシェーダーに合わせて、以下のいずれかをダウンロードしてください。
 
-- ray-mmd
-  [Chameleon_Material_FX_for_ray-mmd.zip]()
+- [Chameleon Material FX for Ray-MMD(zip)]()(updated:2026.04.05)
 - sdPBR
-  [Chameleon_Material_FX_for_sdPBR.zip]()
+  [Chameleon Material FX for sdPBR(zip)]()(updated:2026.04.05)
 
 ## 利用規約
 本リポジトリ内の[LICENSE.txt](https://github.com/sakusya/chameleon-material-fx?tab=License-1-ov-file)を必ずご確認ください。
