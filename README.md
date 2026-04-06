@@ -16,7 +16,7 @@
 - [Chameleon Material FX for Ray-MMD(zip)]()(updated:2026.04.05)
 - [Chameleon Material FX for sdPBR(zip)]()(updated:2026.04.05)
 
-## Install
+## Install（インストール）
 
 解凍した`Chameleon_HSV`フォルダ, `Chameleon_RGB`フォルダを以下に配置してください。
 
