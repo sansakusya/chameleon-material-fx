@@ -127,7 +127,7 @@ const float customAMapLoopNum = 1.0;
 #define CUSTOM_B_MAP_UV_FLIP 0
 #define CUSTOM_B_MAP_COLOR_FLIP 0
 #define CUSTOM_B_MAP_APPLY_SCALE 0
-#define CUSTOM_B_MAP_FILE "../_MaterialMap/shift2.png"
+#define CUSTOM_B_MAP_FILE "../../_MaterialMap/shift2.png"
 
 const float3 customB = 0.1;
 const float2 customBMapLoopNum = 8;
