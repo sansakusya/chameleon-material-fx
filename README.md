@@ -31,8 +31,9 @@
 ## 利用規約概要(License Summary)
 詳細は同梱の[LICENSE.txt](https://github.com/sansakusya/chameleon-material-fx?tab=License-1-ov-file)(全文)を必ずご確認ください。
 
-- 許可(OK)：個人による商用利用（動画収益化等）
-- 改変と配布：.fx .fxsub .pmx の改変・配布は許可します。
+- 許可(OK)：
+  - 個人による商用利用（動画収益化等）
+  - .fx .fxsub .pmx の改変・配布
 - 禁止(NG)：
   - 改造禁止モデルへの使用
   - 未改変の二次配布、自作発言
