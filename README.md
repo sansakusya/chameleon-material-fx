@@ -1,4 +1,4 @@
-# Chameleon Material FX（カメレオンマテリアルFX）
+# カメレオンマテリアルFX（Chameleon Material FX）
 
 専用のpmxコントローラーでモデルのテクスチャの色を自由に変更できるMMDエフェクトです。
 
@@ -9,14 +9,14 @@
   - HSV制御 (`Chameleon_HSV`)：直感的に「色相」や「鮮やかさ」を変えたい場合に適しています。
   - RGB制御 (`Chameleon_RGB`)：特定の色の強さを精密に制御したい場合に適しています。
 
-## Download（ダウンロード）
+## ダウンロード（Download）
 
 お使いのシェーダーに合わせて、以下のいずれかをダウンロードしてください。
 
 - [Chameleon Material FX for Ray-MMD(zip)]()(updated:2026.04.05)
 - [Chameleon Material FX for sdPBR(zip)]()(updated:2026.04.05)
 
-## Install（インストール）
+## インストール（Install）
 
 解凍した`Chameleon_HSV`フォルダ, `Chameleon_RGB`フォルダを以下に配置してください。
 
@@ -28,7 +28,7 @@
 使い方は[wikiページ](https://github.com/sansakusya/chameleon-material-fx/wiki)を参照してください。
 
 
-## 利用規約概要(License Summary)
+## 利用規約概要 (License Summary)
 詳細は同梱の[LICENSE.txt](https://github.com/sansakusya/chameleon-material-fx?tab=License-1-ov-file)(全文)を必ずご確認ください。
 
 - 許可(OK)：
@@ -42,8 +42,6 @@
 
 ## 制作者
 - sansakusya（@aysukasakusya）
-
-## Preview
 
 ## Credit
 Model：正実モブちゃん by たららたらこ
