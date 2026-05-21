@@ -14,7 +14,8 @@ void SetMaterialParam(inout Material m, float3 n,float3 l, float3 Eye, float2 uv
     float monoColor = (m.baseColor.r + m.baseColor.g + m.baseColor.b)/3;
     static const float3 hsv = float3(ctrl_baseColorH, ctrl_baseColorS, ctrl_baseColorV);
     static float3 rgb = HSVtoRGBf(hsv);
-    m.baseColor = float3(0.01+rgb.r, 0.01+rgb.g, 0.01+rgb.b);
+    m.baseColor = float3(monoColor, monoColor, monoColor);
+    m.baseColor *= float3(0.01+rgb.r, 0.01+rgb.g, 0.01+rgb.b);
     m.roughness = 0.6;
     m.anisotropic = 0.7;
     m.specular = IORtoSpecular(1.6);    //ポリエステル。(天然の毛は1.55付近)
