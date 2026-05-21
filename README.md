@@ -6,8 +6,8 @@
 - 対応シェーダー：ray-mmd / sdPBR
 - 特徴：テクスチャ画像の編集なしでも色を自由自在に変えられます。
 - 色制御：HSV制御・RGB制御の2パターンを同梱。
-  - HSV制御 (`Chameleon_HSV`)：直感的に「色相」や「鮮やかさ」を変えたい場合に適しています。
-  - RGB制御 (`Chameleon_RGB`)：特定の色の強さを精密に制御したい場合に適しています。
+  - HSV制御 (`Chameleon_HSV`, `material_Chameleon_HSV`)：直感的に「色相」や「鮮やかさ」を変えたい場合に適しています。
+  - RGB制御 (`Chameleon_RGB`, `material_Chameleon_RGB`)：特定の色の強さを精密に制御したい場合に適しています。
 
 ## ダウンロード（Download）
 
@@ -17,13 +17,13 @@
 - [Chameleon Material FX for sdPBR(zip)](https://github.com/sansakusya/chameleon-material-fx/releases/download/beta.1.0.0/Chameleon_Material_FX_for_sdPBR.zip)(updated:2026.05.13)
 
 ## インストール（Install）
-
-解凍した`Chameleon_HSV`フォルダ, `Chameleon_RGB`フォルダを以下に配置してください。
+お使いのシェーダーに合わせて、以下に配置してください。
 
 #### 【Ray-MMDの場合】
-- お使いの`ray-mmd\Materials`フォルダ内へ配置してください。
+- 
+解凍した`Chameleon_HSV`フォルダ、 `Chameleon_RGB`フォルダを、お使いの`ray-mmd\Materials`フォルダ内へ配置してください。
 #### 【sdPBRの場合】
-- お使いの`sdPBR\material`フォルダ内へ配置してください。
+- 解凍した`material_Chameleon_HSV`フォルダ、`material_Chameleon_RGB`フォルダを、お使いの`sdPBR`フォルダ内へ配置してください。
 
 使い方は[wikiページ](https://github.com/sansakusya/chameleon-material-fx/wiki)を参照してください。
 
