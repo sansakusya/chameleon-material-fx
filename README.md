@@ -20,8 +20,7 @@
 お使いのシェーダーに合わせて、以下に配置してください。
 
 #### 【Ray-MMDの場合】
-- 
-解凍した`Chameleon_HSV`フォルダ、 `Chameleon_RGB`フォルダを、お使いの`ray-mmd\Materials`フォルダ内へ配置してください。
+- 解凍した`Chameleon_HSV`フォルダ、 `Chameleon_RGB`フォルダを、お使いの`ray-mmd\Materials`フォルダ内へ配置してください。
 #### 【sdPBRの場合】
 - 解凍した`material_Chameleon_HSV`フォルダ、`material_Chameleon_RGB`フォルダを、お使いの`sdPBR`フォルダ内へ配置してください。
 
