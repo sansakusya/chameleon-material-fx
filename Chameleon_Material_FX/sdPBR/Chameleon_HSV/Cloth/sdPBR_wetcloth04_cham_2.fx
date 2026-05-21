@@ -7,7 +7,6 @@
 float ctrl_baseColorH : CONTROLOBJECT < string name = MATERIAL_CONTROLLER; string item = "Cloth04H"; >;
 float ctrl_baseColorS : CONTROLOBJECT < string name = MATERIAL_CONTROLLER; string item = "Cloth04S"; >;
 float ctrl_baseColorV : CONTROLOBJECT < string name = MATERIAL_CONTROLLER; string item = "Cloth04V"; >;
-float 
 
 
 texture _Wetpack : TEXTURE < string ResourceName = "../../texture/wetpack.png";>;

@@ -10,7 +10,6 @@ float #define SDPBR_MATERIAL_VER 100
 float ctrl_baseColorH : CONTROLOBJECT < string name = MATERIAL_CONTROLLER; string item = "Pupil05H"; >;
 float ctrl_baseColorS : CONTROLOBJECT < string name = MATERIAL_CONTROLLER; string item = "Pupil05S"; >;
 float ctrl_baseColorV : CONTROLOBJECT < string name = MATERIAL_CONTROLLER; string item = "Pupil05V"; >;
-float 
 
 
 void SetMaterialParam(inout Material m, float3 n,float3 l, float3 Eye, float2 uv)

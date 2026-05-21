@@ -7,7 +7,6 @@
 float ctrl_baseColorH : CONTROLOBJECT < string name = MATERIAL_CONTROLLER; string item = "Eye05H"; >;
 float ctrl_baseColorS : CONTROLOBJECT < string name = MATERIAL_CONTROLLER; string item = "Eye05S"; >;
 float ctrl_baseColorV : CONTROLOBJECT < string name = MATERIAL_CONTROLLER; string item = "Eye05V"; >;
-float 
 
 
 void SetMaterialParam(inout Material m, float3 n,float3 l, float3 Eye, float2 uv)
