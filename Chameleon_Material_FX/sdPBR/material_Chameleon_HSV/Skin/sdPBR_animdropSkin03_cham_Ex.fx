@@ -16,7 +16,7 @@ void SetMaterialParam(inout Material m, float3 n,float3 l, float3 Eye, float2 uv
     static float3 rgb = HSVtoRGBf(hsv);
     m.baseColor = float3(0.01+rgb.r, 0.01+rgb.g, 0.01+rgb.b);
     m.subsurface = 0.5;
-    m.sssColor = pow(float3(ctrl_baseColorR, ctrl_baseColorG, ctrl_baseColorB), GAMMA);
+    m.sssColor = pow(rgb, GAMMA);
     m.roughness = 1;
     m.specular = 0.35;
     m.clearcoat = 0.3;
