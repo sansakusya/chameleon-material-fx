@@ -14,7 +14,7 @@
 お使いのシェーダーに合わせて、以下のいずれかをダウンロードしてください。
 
 - [Chameleon Material FX for Ray-MMD(zip)](https://github.com/sansakusya/chameleon-material-fx/releases/download/beta.1.0.0/Chameleon_Material_FX_for_ray-mmd.zip)(updated:2026.05.13)
-- [Chameleon Material FX for sdPBR(zip)](https://github.com/sansakusya/chameleon-material-fx/releases/download/beta.1.0.0/Chameleon_Material_FX_for_sdPBR.zip)(updated:2026.05.13)
+- [Chameleon Material FX for sdPBR(zip)](https://github.com/sansakusya/chameleon-material-fx/releases/download/beta.1.0.0/Chameleon_Material_FX_for_sdPBR.zip)(updated:2026.05.21)
 
 ## インストール（Install）
 お使いのシェーダーに合わせて、以下に配置してください。
