@@ -1,5 +1,5 @@
 #define SDPBR_MATERIAL_VER 100
-#include "../../../shader/sdPBRMaterialHead.fxsub"
+#include "../../shader/sdPBRMaterialHead.fxsub"
 
 #define MATERIAL_CONTROLLER "sdPBRChameleonControllerRGB.pmx"
 
@@ -25,5 +25,5 @@ void SetMaterialParam(inout Material m, float3 n,float3 l, float3 Eye, float2 uv
 #define NORMAL_FROM NORMAL_FROM_FILE
 #define NORMAL_FILE "../../texture/Fabric032_2K_Normal.jpg"
 
-#include "../../../shader/sdPBRMaterialTail.fxsub"
+#include "../../shader/sdPBRMaterialTail.fxsub"
 

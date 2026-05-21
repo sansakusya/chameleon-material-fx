@@ -1,5 +1,5 @@
 #define SDPBR_MATERIAL_VER 100
-#include "../../../shader/sdPBRMaterialHead.fxsub"
+#include "../../shader/sdPBRMaterialHead.fxsub"
 #include "../HSVtoRGB.hlsl"
 
 #define MATERIAL_CONTROLLER "sdPBRChameleonControllerHSV.pmx"
@@ -35,6 +35,6 @@ void SetMaterialParam(inout Material m, float3 n,float3 l, float3 Eye, float2 uv
 #define AO_FROM AO_FROM_PACK0
 #define AO_CHANNEL bbb
 
-#include "../../../shader/sdPBRMaterialTail.fxsub"
+#include "../../shader/sdPBRMaterialTail.fxsub"
 
 

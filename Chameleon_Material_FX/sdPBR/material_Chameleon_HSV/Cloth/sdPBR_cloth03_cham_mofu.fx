@@ -1,5 +1,5 @@
 #define SDPBR_MATERIAL_VER 100
-#include "../../../shader/sdPBRMaterialHead.fxsub"
+#include "../../shader/sdPBRMaterialHead.fxsub"
 #include "../HSVtoRGB.hlsl"
 
 #define MATERIAL_CONTROLLER "sdPBRChameleonControllerHSV.pmx"
@@ -37,7 +37,7 @@ void SetMaterialParam(inout Material m, float3 n,float3 l, float3 Eye, float2 uv
 #define MOFU_MOFU 1         //ƒ‚ƒt–Ñ‚É‚æ‚éŒ©‚½–Ú‚Ö‚Ì‰e‹¿“x(0`1)
 #define MOFU_OCCLUSION 0.25 //–Ñ‚É‚æ‚Á‚Ä’n‚ğˆÃ‚­‚·‚é“x‡‚¢(0`1)
 
-#include "../../../shader/sdPBRMaterialTail.fxsub"
+#include "../../shader/sdPBRMaterialTail.fxsub"
 
 
 

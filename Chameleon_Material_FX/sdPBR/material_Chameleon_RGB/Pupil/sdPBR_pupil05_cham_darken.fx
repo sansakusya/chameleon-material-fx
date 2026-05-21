@@ -2,7 +2,7 @@ float ctrl_baseColorR : CONTROLOBJECT < string name = MATERIAL_CONTROLLER; strin
 float ctrl_baseColorG : CONTROLOBJECT < string name = MATERIAL_CONTROLLER; string item = "Pupil05G+"; >;
 float ctrl_baseColorB : CONTROLOBJECT < string name = MATERIAL_CONTROLLER; string item = "Pupil05B+"; >;
 float ctrl_baseColorV : CONTROLOBJECT < string name = MATERIAL_CONTROLLER; string item = "Pupil05V-"; >;#define SDPBR_MATERIAL_VER 100
-#include "../../../shader/sdPBRMaterialHead.fxsub"
+#include "../../shader/sdPBRMaterialHead.fxsub"
 
 #define MATERIAL_CONTROLLER "sdPBRChameleonControllerRGB.pmx"
 
@@ -28,4 +28,4 @@ void SetMaterialParam(inout Material m, float3 n,float3 l, float3 Eye, float2 uv
     m.SSDOVisibility = 0.3;
 }
 
-#include "../../../shader/sdPBRMaterialTail.fxsub"
+#include "../../shader/sdPBRMaterialTail.fxsub"

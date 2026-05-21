@@ -2,7 +2,7 @@
 //フリルやレースの部分の周囲が黒くなるような時向け
 
 #define SDPBR_MATERIAL_VER 100
-#include "../../../shader/sdPBRMaterialHead.fxsub"
+#include "../../shader/sdPBRMaterialHead.fxsub"
 #include "../HSVtoRGB.hlsl"
 
 #define MATERIAL_CONTROLLER "sdPBRChameleonControllerHSV.pmx"
@@ -34,6 +34,6 @@ void SetMaterialParam(inout Material m, float3 n,float3 l, float3 Eye, float2 uv
 //残った部分のα値は1.0とみなす
 #define BINARY_ALPHA
 
-#include "../../../shader/sdPBRMaterialTail.fxsub"
+#include "../../shader/sdPBRMaterialTail.fxsub"
 
 

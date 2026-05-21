@@ -1,5 +1,5 @@
 #define SDPBR_MATERIAL_VER 100
-#include "../../../shader/sdPBRMaterialHead.fxsub"
+#include "../../shader/sdPBRMaterialHead.fxsub"
 #include "../HSVtoRGB.hlsl"
 
 #define MATERIAL_CONTROLLER "sdPBRChameleonControllerHSV.pmx"
@@ -72,7 +72,7 @@ float _Subroughness_Blend(float a, float b)
 #define ROUGHNESS_CHANNEL b
 
 
-#include "../../../shader/sdPBRMaterialTail.fxsub"
+#include "../../shader/sdPBRMaterialTail.fxsub"
 
 
 
