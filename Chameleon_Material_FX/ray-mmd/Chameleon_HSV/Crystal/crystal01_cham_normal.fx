@@ -29,7 +29,9 @@ float mH : CONTROLOBJECT<string name=CONTROLLER_NAME; string item = "crystal01H"
 float mS: CONTROLOBJECT<string name=CONTROLLER_NAME; string item = "crystal01S";>;
 float mV: CONTROLOBJECT<string name=CONTROLLER_NAME; string item = "crystal01V";>;
 
-static const float3 albedo = float3(0.5*mR, 0.5*mG, 0.5*mB) * (0.5-mV);
+static const float3 hsv = float3(mH, mS, mV);
+static float3 rgb = HSVtoRGB(hsv);
+static const float3 albedo = float3(rgb.r, rgb.g, rgb.b);
 static const float2 albedoMapLoopNum = 1.0;
 
 #define ALBEDO_SUB_ENABLE 0
