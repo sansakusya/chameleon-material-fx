@@ -9,15 +9,16 @@
   - HSV制御 (`Chameleon_HSV`, `material_Chameleon_HSV`)：直感的に「色相」や「鮮やかさ」を変えたい場合に適しています。
   - RGB制御 (`Chameleon_RGB`, `material_Chameleon_RGB`)：特定の色の強さを精密に制御したい場合に適しています。
 
-## ダウンロード（Download）
+## プレビュー
+> > ![Sample GIF](https://github.com/sansakusya/chameleon-material-fx/blob/main/images/preview.gif)
+> *スライダー操作だけで、肌、髪、瞳など、あらゆる材質の色を自在にコントロール可能。*
 
-お使いのシェーダーに合わせて、以下のいずれかをダウンロードしてください。
+## ダウンロード
 
 - [Chameleon Material FX for Ray-MMD(zip)](https://github.com/sansakusya/chameleon-material-fx/releases/download/beta.1.0.2/Chameleon_Material_FX_for_ray-mmd.zip)(updated:2026.06.26)
 - [Chameleon Material FX for sdPBR(zip)](https://github.com/sansakusya/chameleon-material-fx/releases/download/beta.1.0.3/Chameleon_Material_FX_for_sdPBR.zip)(updated:2026.05.21)
 
-## インストール（Install）
-お使いのシェーダーに合わせて、以下に配置してください。
+## インストール
 
 #### 【Ray-MMDの場合】
 - 解凍した`Chameleon_HSV`フォルダ、 `Chameleon_RGB`フォルダを、お使いの`ray-mmd\Materials`フォルダ内へ配置してください。
@@ -26,6 +27,13 @@
 
 使い方は[wikiページ](https://github.com/sansakusya/chameleon-material-fx/wiki)を参照してください。
 
+## 必要ソフト
+
+- [MikuMikuDance](https://sites.google.com/view/vpvp/) x64 Ver
+- [MikuMikuEffect](https://bowlroll.net/file/35013) x64 ver0.37
+- 対応シェーダー
+  - [ray-mmd](https://github.com/ray-cast/ray-mmd) 1.5.0
+  - [sdPBR](https://github.com/pennennennennennenem/sdPBR) Version 4.80
 
 ## 利用規約概要 (License Summary)
 詳細は同梱の[LICENSE.txt](https://github.com/sansakusya/chameleon-material-fx?tab=License-1-ov-file)(全文)を必ずご確認ください。
