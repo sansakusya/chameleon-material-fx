@@ -10,7 +10,7 @@
   - RGB制御 (`Chameleon_RGB`, `material_Chameleon_RGB`)：特定の色の強さを精密に制御したい場合に適しています。
 
 ## プレビュー
-> > ![Sample GIF](https://github.com/sansakusya/chameleon-material-fx/blob/main/images/preview.gif)
+![Sample GIF](https://github.com/sansakusya/chameleon-material-fx/blob/main/images/preview.gif)
 > *スライダー操作だけで、肌、髪、瞳など、あらゆる材質の色を自在にコントロール可能。*
 
 ## ダウンロード
@@ -32,8 +32,8 @@
 - [MikuMikuDance](https://sites.google.com/view/vpvp/) x64 Ver
 - [MikuMikuEffect](https://bowlroll.net/file/35013) x64 ver0.37
 - 対応シェーダー
-  - [ray-mmd](https://github.com/ray-cast/ray-mmd) 1.5.0
-  - [sdPBR](https://github.com/pennennennennennenem/sdPBR) Version 4.80
+  - [ray-mmd](https://github.com/ray-cast/ray-mmd/releases/tag/1.5.2) 1.5.2
+  - [sdPBR](https://github.com/pennennennennennenem/sdPBR/releases/tag/sdPBR480) Version 4.80
 
 ## 利用規約概要 (License Summary)
 詳細は同梱の[LICENSE.txt](https://github.com/sansakusya/chameleon-material-fx?tab=License-1-ov-file)(全文)を必ずご確認ください。
